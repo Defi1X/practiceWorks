@@ -122,7 +122,7 @@ func statConnections(url, shortURL, ip string) {
 
 	new_conn := JSONEntry{
 		SourceIP: ip,
-		Time:     time.Now().Format("2999-01-02 00:00"),
+		Time:     time.Now().Format("2006-01-02 15:04"),
 		Count:    1,
 	}
 
